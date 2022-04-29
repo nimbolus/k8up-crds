@@ -9,7 +9,7 @@
         "^Makefile$"
       ],
       "matchStrings": [
-        "registryUrl=(?<registryUrl>.*?) chart=(?<depName>.*?)\n.*=(?<currentValue>.*?)\\/"
+        "registryUrl=(?<registryUrl>.*?) chart=(?<depName>.*?)\n.*=(?<currentValue>.*?)\n"
       ],
       "datasourceTemplate": "helm"
     }
