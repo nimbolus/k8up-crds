@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   k8up-crds:
   - apiVersion: v2
+    appVersion: v2.1.2
+    created: "2022-04-29T00:24:23.223632616Z"
+    description: CRDs for k8up - A Kubernetes and OpenShift Backup Operator based
+      on restic
+    digest: b4b6d3c88f97861d2ed7f222b42503913d6074ddd31b9d02743fe6a125331eaa
+    name: k8up-crds
+    type: application
+    urls:
+    - https://github.com/nimbolus/k8up-crds/releases/download/k8up-crds-2.0.3/k8up-crds-2.0.3.tgz
+    version: 2.0.3
+  - apiVersion: v2
     appVersion: v2.1.0
     created: "2022-04-29T00:14:15.045705758Z"
     description: CRDs for k8up - A Kubernetes and OpenShift Backup Operator based
@@ -12,4 +23,4 @@ entries:
     urls:
     - https://github.com/nimbolus/k8up-crds/releases/download/k8up-crds-2.0.2/k8up-crds-2.0.2.tgz
     version: 2.0.2
-generated: "2022-04-29T00:14:15.045710858Z"
+generated: "2022-04-29T00:24:23.223648916Z"
