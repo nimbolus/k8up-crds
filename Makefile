@@ -2,7 +2,7 @@ SHELL = bash
 .ONESHELL:
 
 # renovate: registryUrl=https://charts.appuio.ch chart=k8up
-K8UP_CHART_VERSION=2.0.4
+K8UP_CHART_VERSION=2.0.5
 K8UP_CHART_URL=https://github.com/appuio/charts/releases/download/k8up-${K8UP_CHART_VERSION}/k8up-${K8UP_CHART_VERSION}.tgz
 
 prepare:
